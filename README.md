@@ -24,6 +24,6 @@ npm install
 npm run build
 npm start
 ```
-⚠️`next dev` should not be used since the webpack dev-tools violate the CSP header
+⚠️`npm dev` should not be used since the webpack dev-tools violate the CSP header
 
 3. Check Errors in the Browser
