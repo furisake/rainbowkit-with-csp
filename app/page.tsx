@@ -4,13 +4,13 @@ export default async function Home() {
   return (
     <div>
       <div>
-        <Link href="/with-csp" className="text-blue-500 hover:underline">With CSP header</Link>
+        <a href="/with-csp" className="text-blue-500 hover:underline">With CSP header</a>
       </div>
       <div>
-        <Link href="/without-csp" className="text-blue-500 hover:underline">Without CSP header</Link>
+        <a href="/without-csp" className="text-blue-500 hover:underline">Without CSP header</a>
       </div>
       <div>
-        <Link href="/with-index" className="text-blue-500 hover:underline">The solution in the GitHub (does not work)</Link>
+        <a href="/with-index" className="text-blue-500 hover:underline">The solution in the GitHub (does not work)</a>
       </div>
     </div>
   );
