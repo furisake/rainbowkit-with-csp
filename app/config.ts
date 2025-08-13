@@ -29,6 +29,6 @@ export const config = createConfig({
         storage: cookieStorage,
     }),
     transports: {
-        [mainnet.id]: http('http://exapmle.com'),
+        [mainnet.id]: http('http://example.com'),
     },
 });
