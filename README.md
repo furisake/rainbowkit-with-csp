@@ -12,18 +12,21 @@ Refused to apply inline style because it violates the following Content Security
 The workaround in a Next.js project is to allow unsafe-inline, but has XSS risks.
 
 ## Getting Started
-1. Clone Repository
+### 1. Clone Repository
+```
+git clone https://github.com/furisake/rainbowkit-with-csp.git
+```
 
-2. Install Dependencies
+### 2. Install Dependencies
 ```bash
 npm install
 ```
 
-3. Start the Server
+### 3. Start the Server
 ```
 npm run build
 npm start
 ```
 ⚠️`npm dev` should not be used since the webpack dev-tools violate the CSP header
 
-3. Check Errors in the Browser
+### 4. Check Errors in your Browser
