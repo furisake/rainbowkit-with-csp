@@ -12,7 +12,9 @@ export default async function Home() {
 
   return (
     <Provider initialState={initialState}>
-      The <a href="https://github.com/rainbow-me/rainbowkit/issues/1256#issuecomment-1712923324">solution</a> in the GitHub issue does not work.
+      The <a href="https://github.com/rainbow-me/rainbowkit/issues/1256#issuecomment-1712923324" className="text-blue-500 hover:underline">solution</a> in the GitHub issue does not work.
+      <br />
+      <br />
       <WalletButtons />
     </Provider>
   );
