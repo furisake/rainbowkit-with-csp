@@ -29,6 +29,6 @@ export const config = createConfig({
         storage: cookieStorage,
     }),
     transports: {
-        [mainnet.id]: http('http://example.com'),
+        [mainnet.id]: http('https://jsonplaceholder.typicode.com/posts'),
     },
 });

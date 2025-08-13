@@ -4,7 +4,6 @@ export async function middleware(request: NextRequest) {
     const nonce = Buffer.from(crypto.randomUUID()).toString('base64')
     const cspHeader = `
         style-src 'self'  'nonce-${nonce}';
-        connect-src 'self' http://example.com;
     `
 
     // Replace newline characters and spaces
